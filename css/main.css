@@ -1,11 +1,28 @@
 /*  Estilos para la página principal*/
 body{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
-@media (min-width: 768px) {
 
+.navbar {
+  margin-bottom: 0;
+  padding: 0:
+}
+
+nav.navbar.navbar-static-top{margin-bottom: 0px;}
+nav.navbar.sidebar{margin-bottom: 0px;}
+.carousel .carousel-inner .item{
+  max-height: 400px;
+}
+
+@media (min-width: 768px) {
+  nav.navbar.sidebar{
+    position: absolute;
+      top: 50px;
+      height: 350px;
+  }
     /*adds border to bottom nav boxes*/
+
     nav.sidebar .navbar-nav > li{
         border-bottom: 1px #e5e5e5 solid;
     }
@@ -35,8 +52,15 @@ body{
         margin-left: 0px;
     }
 }
+<<<<<<< HEAD
 /* Estilos cartelera*/
 /*Ejemplo 1*/
+=======
+
+
+/*Cartelera*/
+
+>>>>>>> e714632efbc3b4897a8173f63e343424cb2e6f31
 /*Ejemplo 1*/
 .ejemplo-1 img {
 transition: all 0.2s linear;
@@ -81,6 +105,7 @@ transition-delay: 0.2s; /*Aplicamos un pequeño retardo para que se muestre al f
 transform: translateY(0px);
 }
 
+<<<<<<< HEAD
 /*
 *, *:before, *:after {
   box-sizing: inherit;
@@ -117,3 +142,32 @@ h1 {
 .dos {
   background-image: url(https://ununsplash.imgix.net/reserve/zU6fwmDaSVWZdCXcZfot_IMG_3838.JPG?q=75&fm=jpg&s=d29d60fdb60dc13678a6c7a53babcde4);
 } */
+=======
+
+
+/* Estilos dom music events */
+
+.music-events-container {
+  width: 20%;
+  height: 30%;
+  background: gray;
+  color: white;
+  margin-left: 20px;
+
+/*Estilos de formulario*/
+
+/* Menú desplegable*/
+
+/*Carrusel*/
+.carousel-inner > .item > img {
+  object-fit: scale-down;
+  height: 50vh;
+  width: 100%;
+}
+
+/*Footer*/
+.icons{
+  margin-left: 20vh;
+
+}
+>>>>>>> e714632efbc3b4897a8173f63e343424cb2e6f31
