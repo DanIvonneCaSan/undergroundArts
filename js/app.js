@@ -1,28 +1,4 @@
 
-/* Función para eñ menú desplegable
-$(document).ready(function(e){
-    $('.search-panel .dropdown-menu').find('a').click(function(e) {
-		e.preventDefault();
-		var param = $(this).attr("href").replace("#","");
-		var concept = $(this).text();
-		$('.search-panel span#search_concept').text(concept);
-		$('.input-group #search_param').val(param);
-	});
-});
-
-
-// Función para eñ menú desplegable
-$(document).ready(function(e){
-    $('.search-panel .dropdown-menu').find('a').click(function(e) {
-		e.preventDefault();
-		var param = $(this).attr("href").replace("#","");
-		var concept = $(this).text();
-		$('.search-panel span#search_concept').text(concept);
-		$('.input-group #search_param').val(param);
-	});
-});*/
-
-<<<<<<< HEAD
 // var database = firebase.database();
 // Initialize Firebase
  var config = {
@@ -80,11 +56,11 @@ $(function(){
   $("#contentimg").html('<img src="'+user.photoURL+'" class="img-rounded" />');
   console.log("local=>",user.photoURL);
 });
+
+
 //Funcion para habilitar el bóton de pos texto
 // var $eventNameInput = $("#event-name-input");
-//
-//
-//
+
 // $("#event-name-input").keyup(habilitateButton);
 //
 // function habilitateButton () {
@@ -98,44 +74,7 @@ $(function(){
 // }
 
 
-//Función para pintar el registro de eventos de música
 
-// var contacts = [];
-// var $nameInput = $("#name-input");
-// var $phoneInput = $("#phone-input");
-
-
-// var dataEvents = [];
-// var $eventKindInput = $("#event-kind-inpu");
-// var $eventNameInput = $("#event-name-input");
-// var $dateInput = $("#date-input");
-// var $priceInput = $("#price-input");
-// var $imageInput = $("image-input");
-//
-// function loadPage() {
-//   $("#registration").click(paintRegistrer);
-// }
-
-// function paintRegistrer ( )
-
-
-// $("#add-contact").click(paintContactName);
-// var $contactInput = $("#contact-input");
-//
-// function paintContactName(contact) {
-//   var $contact = $contactInput.val();
-//   console.log($contact);
-//
-//   var $contactContainer = $("<div />");
-//   var $contactP = $("<p />");
-//
-//   $contactContainer.append($contactP);
-//   $contactP.append($contact);
-//
-//   $("#publish-contact").prepend($contactContainer);
-//
-// }
-=======
 $(function(){
   $("#btnadd").click(function(e){
     //e.preventDefault();
@@ -161,4 +100,3 @@ $(function(){
 
     }});
 });
->>>>>>> 716ddf622365830a65470f25b25be2b9f00905d1
