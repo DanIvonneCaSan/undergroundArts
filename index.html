@@ -14,7 +14,7 @@
     crossorigin="anonymous"></script>
 </head>
 <body>
-    <!--Barra de navegación superior-->
+     <!--Barra de navegación superior-->
     <header>
       <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
         <div class="container">
@@ -28,8 +28,7 @@
                   <button type="submit" class="btn btn-default">Submit</button>
               </form>
           <ul class="nav navbar-nav navbar-right">
-            <li><button class="btn btn-primary" type="button" id="btnGoogle">Acceso con Google</button> </li>
-            <li><a href="views/formulario.html">Registra tu evento</a></li>
+              <li><a href="views/formulario.html">Registra tu evento</a></li>
           </ul>
           </div>
         </div>
@@ -51,30 +50,31 @@
             <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="views/cartelera.html">Artes escénicas<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
-                    <li ><a href="#">Artes plásticas<span class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
-                    <li ><a href="#">Artes visuales<span class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
+                    <li><a href="#">Artes plásticas<span class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
+                    <li><a href="#">Artes visuales<span class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
                     <li><a href="#">Artesanías<span class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
-                    <li ><a href="#">Música<span class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
+                    <li><a href="#">Música<span class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
                 </ul>
             </div>
-
         </div>
     </nav>
+
         <!--Comienza el carrusel-->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+                <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="2" class=""></li>
             </ol>
+
             <!-- Wrapper for slides -->
             <div id="carrusel" class="carousel-inner" role="listbox">
-                <div class="item active">
+                <div class="item">
                     <img class="carousel-art img-responsive" src="assets/images/slide1.jpg" alt="rob">
                 </div>
 
-                <div class="item">
+                <div class="item active">
                     <img class="carousel-art img-responsive" src="assets/images/slide2.jpg" alt="experimental">
                 </div>
 
@@ -82,6 +82,7 @@
                     <img class="carousel-art img-responsive" src="assets/images/slide3.jpg" alt="escenico">
                 </div>
             </div>
+
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
@@ -92,7 +93,7 @@
                 <span class="sr-only">Next</span>
             </a>
             </div>
-
+	
     <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
