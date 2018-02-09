@@ -21,3 +21,116 @@ $(document).ready(function(e){
 		$('.input-group #search_param').val(param);
 	});
 });*/
+
+// var database = firebase.database();
+// Initialize Firebase
+ var config = {
+   apiKey: "AIzaSyBl1dpFBKHZ78YpLPaFHLdB79Ki1iIcEYI",
+   authDomain: "undergroundarts-378ca.firebaseapp.com",
+   databaseURL: "https://undergroundarts-378ca.firebaseio.com",
+   projectId: "undergroundarts-378ca",
+   storageBucket: "",
+   messagingSenderId: "626769935275"
+ };
+
+ firebase.initializeApp(config);
+
+ $("#btnGoogle").click(function () {
+  $("#modal-1").modal("hide");
+  authGoogle();
+
+});
+
+ function authGoogle () {
+  var provider = new firebase.auth.GoogleAuthProvider();
+  authentication(provider);
+
+}
+
+function authentication(provider) {
+  // Se tienen permisos para acceder al correo
+  firebase.auth().signInWithPopup(provider).then(function(result) {
+    //saveData(result.user);
+  // This gives you a Google Access Token. You can use it to access the Google API.
+  var token = result.credential.accessToken;
+  // The signed-in user info.
+  var user = result.user;
+
+  //window.location.href="../views/profile.html";
+  $("#userprof").append("<img scr='"+result.user.photoURL+"'/>")
+})
+.catch(function(error) {
+  // Handle Errors here.
+  var errorCode = error.code;
+  var errorMessage = error.message;
+  console.log(errorMessage);
+  // The email of the user's account used.
+  var email = error.email;
+  // The firebase.auth.AuthCredential type that was used.
+  var credential = error.credential;
+  // ...
+});
+
+}
+$(function(){
+  const authUser = Object.keys(window.localStorage)
+  .filter(item => item.startsWith('firebase:authUser'))[0]
+  var user=JSON.parse(localStorage.getItem(authUser));
+  $("#contentimg").html('<img src="'+user.photoURL+'" class="img-rounded" />');
+  console.log("local=>",user.photoURL);
+});
+//Funcion para habilitar el bóton de pos texto
+// var $eventNameInput = $("#event-name-input");
+//
+//
+//
+// $("#event-name-input").keyup(habilitateButton);
+//
+// function habilitateButton () {
+// 	var $containerAddText = $("#registration");
+//
+// 	if($(this).val().trim().length > 0) {
+// 		$containerAddText.removeAttr("disabled");
+// 	} else {
+// 		$containerAddText.attr("disabled", true);
+// 	}
+// }
+
+
+//Función para pintar el registro de eventos de música
+
+// var contacts = [];
+// var $nameInput = $("#name-input");
+// var $phoneInput = $("#phone-input");
+
+
+// var dataEvents = [];
+// var $eventKindInput = $("#event-kind-inpu");
+// var $eventNameInput = $("#event-name-input");
+// var $dateInput = $("#date-input");
+// var $priceInput = $("#price-input");
+// var $imageInput = $("image-input");
+//
+// function loadPage() {
+//   $("#registration").click(paintRegistrer);
+// }
+
+// function paintRegistrer ( )
+
+
+// $("#add-contact").click(paintContactName);
+// var $contactInput = $("#contact-input");
+//
+// function paintContactName(contact) {
+//   var $contact = $contactInput.val();
+//   console.log($contact);
+//
+//   var $contactContainer = $("<div />");
+//   var $contactP = $("<p />");
+//
+//   $contactContainer.append($contactP);
+//   $contactP.append($contact);
+//
+//   $("#publish-contact").prepend($contactContainer);
+//
+// }

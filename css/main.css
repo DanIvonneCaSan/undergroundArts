@@ -1,12 +1,14 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 4bebd8b605055e9f9a85261c30ee8c141ae536c9
 body{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
+
+.navbar {
+  margin-bottom: 0;
+  padding: 0:
+}
+
 @media (min-width: 768px) {
 
     /*adds border to bottom nav boxes*/
@@ -39,11 +41,10 @@ body{
         margin-left: 0px;
     }
 }
-<<<<<<< HEAD
+
 
 /*Cartelera*/
-=======
->>>>>>> 4bebd8b605055e9f9a85261c30ee8c141ae536c9
+
 /*Ejemplo 1*/
 .ejemplo-1 img {
 transition: all 0.2s linear;
@@ -86,4 +87,15 @@ transition-delay: 0.1s;
 .ejemplo-1:hover a.link {
 transition-delay: 0.2s; /*Aplicamos un pequeño retardo para que se muestre al final*/
 transform: translateY(0px);
+}
+
+
+/* Estilos dom music events */
+
+.music-events-container {
+  width: 20%;
+  height: 30%;
+  background: gray;
+  color: white;
+  margin-left: 20px;
 }
