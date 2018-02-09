@@ -3,20 +3,18 @@ body{
     margin: 0;
     padding: 0;
 }
-<<<<<<< HEAD
 
 .navbar {
   margin-bottom: 0;
   padding: 0:
 }
 
-=======
 nav.navbar.navbar-static-top{margin-bottom: 0px;}
 nav.navbar.sidebar{margin-bottom: 0px;}
 .carousel .carousel-inner .item{
   max-height: 400px;
 }
->>>>>>> 716ddf622365830a65470f25b25be2b9f00905d1
+
 @media (min-width: 768px) {
   nav.navbar.sidebar{
     position: absolute;
@@ -57,10 +55,7 @@ nav.navbar.sidebar{margin-bottom: 0px;}
 
 
 /*Cartelera*/
-<<<<<<< HEAD
 
-=======
->>>>>>> 716ddf622365830a65470f25b25be2b9f00905d1
 /*Ejemplo 1*/
 .ejemplo-1 img {
 transition: all 0.2s linear;
@@ -105,7 +100,7 @@ transition-delay: 0.2s; /*Aplicamos un pequeño retardo para que se muestre al f
 transform: translateY(0px);
 }
 
-<<<<<<< HEAD
+
 
 /* Estilos dom music events */
 
@@ -115,7 +110,7 @@ transform: translateY(0px);
   background: gray;
   color: white;
   margin-left: 20px;
-=======
+
 /*Estilos de formulario*/
 
 /* Menú desplegable*/
@@ -130,5 +125,5 @@ transform: translateY(0px);
 /*Footer*/
 .icons{
   margin-left: 20vh;
->>>>>>> 716ddf622365830a65470f25b25be2b9f00905d1
+
 }
