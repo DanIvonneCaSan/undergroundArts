@@ -1,6 +1,6 @@
 #UNDERGROUND-ARTS
 
-Descripción: UNDERGROUND-arts será un sitio dedicado a la difusión de eventos culturales, de artistas independientes.
+Descripción: Undergound-arts será un sitio dedicado a la difusión de eventos culturales, de artistas independientes.
 
 ##_PROCESO DE DISEÑO_
 Investigación: Las encuestas realizadas muestran que el 100% de los encuestados está interesado en eventos

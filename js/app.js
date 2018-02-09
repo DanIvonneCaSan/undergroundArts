@@ -22,6 +22,7 @@ $(document).ready(function(e){
 	});
 });*/
 
+<<<<<<< HEAD
 // var database = firebase.database();
 // Initialize Firebase
  var config = {
@@ -134,3 +135,30 @@ $(function(){
 //   $("#publish-contact").prepend($contactContainer);
 //
 // }
+=======
+$(function(){
+  $("#btnadd").click(function(e){
+    //e.preventDefault();
+    let a=$("#addform").serializeArray();
+    console.log(a);
+    //localStorage.setItem('id1',a);
+    //validar el consecutivo de id antes de insertar
+    localStorage.setItem('id1',JSON.stringify(a));
+    console.log("ADD",JSON.stringify(a));
+    //alert();
+  });
+  console.log("IMPRIMIR");
+  console.log(JSON.parse(localStorage.getItem('id1')));
+  console.log("IMPRIMIR");
+  console.log(JSON.parse(localStorage.getItem('id2')));
+
+  //recorrer el storage, guardarlo en un arreglo y pintar en html
+
+  $.ajax({url: "http://untrampolin.com/development/done4you/API/servicios/get_promo",
+        success: function(r){
+          console.log('=>',r);
+        $("#div1").html(r);
+
+    }});
+});
+>>>>>>> 716ddf622365830a65470f25b25be2b9f00905d1
