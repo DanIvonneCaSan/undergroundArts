@@ -25,26 +25,26 @@ la información de cada evento y artista a manera de cartelera.
 
 ##Colaboración de las integrantes:
 
-_Aide :
-*Día 1. Maquetado vista 2 (formulario), investigación para implementar firebase
-*Día 2. Implementación de firebase
-*Día 3.Funcionalidad
-*Día 4.Funcionalidad
+_ Aide :
+* Día 1. Maquetado vista 2 (formulario), investigación para implementar firebase
+* Día 2. Implementación de firebase
+* Día 3.Funcionalidad
+* Día 4.Funcionalidad
 
-_Daniela:
-*Día 1. Maquetado vista 3 (cartelera), investigación para implementar firebase
-*Día 2. Implementación de firebase y funcionalidad
-*Día 3. Funcionalidad
-*Día 4. Funcionalidad
+_ Daniela:
+* Día 1. Maquetado vista 3 (cartelera), investigación para implementar firebase
+* Día 2. Implementación de firebase y funcionalidad
+* Día 3. Funcionalidad
+* Día 4. Funcionalidad
 
-_Ana Luisa:
-*Día 1.Maquetado vista 1 (principal), investigación de la API de facebook
-*Día 2.Implementación de API
-*Día 3.Funcionalidad
-Día 4. Funcionalidad
+_ Ana Luisa:
+* Día 1.Maquetado vista 1 (principal), investigación de la API de facebook
+* Día 2.Implementación de API
+* Día 3.Funcionalidad
+* Día 4. Funcionalidad
 
-_Anett:
-*Día 1.Investigación y sketch
-*Día 2. Readme, agregar estilos al maquetado
-*Día 3.
-*Día 4.
+_ Anett:
+* Día 1.Investigación y sketch
+* Día 2. Readme, agregar estilos al maquetado
+* Día 3. Maquetación
+* Día 4. Arreglos finales
