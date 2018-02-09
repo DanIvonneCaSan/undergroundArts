@@ -1,4 +1,4 @@
-#UNDERGROUND-ARTS
+# UNDERGROUND-ARTS
 
 Descripción: Undergound-arts será un sitio dedicado a la difusión de eventos culturales, de artistas independientes.
 
