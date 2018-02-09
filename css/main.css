@@ -1,15 +1,21 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 4bebd8b605055e9f9a85261c30ee8c141ae536c9
 body{
     margin: 0%;
     padding: 0%;
 }
+nav.navbar.navbar-static-top{margin-bottom: 0px;}
+nav.navbar.sidebar{margin-bottom: 0px;}
+.carousel .carousel-inner .item{
+  max-height: 400px;
+}
 @media (min-width: 768px) {
-
+  nav.navbar.sidebar{
+    position: absolute;
+      top: 50px;
+      height: 350px;
+  }
     /*adds border to bottom nav boxes*/
+
     nav.sidebar .navbar-nav > li{
         border-bottom: 1px #e5e5e5 solid;
     }
@@ -39,11 +45,9 @@ body{
         margin-left: 0px;
     }
 }
-<<<<<<< HEAD
+
 
 /*Cartelera*/
-=======
->>>>>>> 4bebd8b605055e9f9a85261c30ee8c141ae536c9
 /*Ejemplo 1*/
 .ejemplo-1 img {
 transition: all 0.2s linear;
@@ -86,4 +90,20 @@ transition-delay: 0.1s;
 .ejemplo-1:hover a.link {
 transition-delay: 0.2s; /*Aplicamos un pequeño retardo para que se muestre al final*/
 transform: translateY(0px);
+}
+
+/*Estilos de formulario*/
+
+/* Menú desplegable*/
+
+/*Carrusel*/
+.carousel-inner > .item > img {
+  object-fit: scale-down;
+  height: 50vh;
+  width: 100%;
+}
+
+/*Footer*/
+.icons{
+  margin-left: 20vh;
 }
