@@ -109,13 +109,14 @@ transform: translateY(0px);
   height: 30%;
   background: gray;
   color: white;
-  margin-left: 20px;
+  margin-left: 20px;}
 
 /*Estilos de formulario*/
 
 /* Menú desplegable*/
 
 /*Carrusel*/
+
 .carousel-inner > .item > img {
   object-fit: scale-down;
   height: 50vh;
@@ -127,3 +128,9 @@ transform: translateY(0px);
   margin-left: 20vh;
 
 }
+
+.arts{
+  font-family: 'Berkshire Swash', cursive;
+}
+
+/*Contenedores de eventos*/
